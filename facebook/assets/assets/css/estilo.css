@@ -126,11 +126,13 @@
 
 .Pie{
     text-align: center;
+    justify-content: left;
     justify-content: space-between;
-    margin: 0 auto;
-    width: 980px;
+    padding: 20px 250px;
     display: flex;
     align-items: flex-start;
+    
+    
     
 }
 
