@@ -1,0 +1,163 @@
+
+.Flexbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f5;
+    padding-bottom: 100px;
+    
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+#logo{
+    height: 100px;
+}
+
+.caja1 img{
+  transform: translateX(-25px);
+}
+
+.parrafo{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px
+}
+
+.CajaUsuario1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+    border-radius: 6px;
+    font-family: inherit;
+    width: 396px;
+    text-align: center;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+}
+
+.contenedorInputs1{
+    
+    margin: 30px 5px 5px;
+}
+
+#usuario{
+    width: 330px;
+    height: 22px;
+    background-color: #fff;
+    color: #1c1e21;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    border: 1px solid #dddfe2;
+}
+
+#pass{
+    width: 330px;
+    height: 22px;
+    background-color: #fff;
+    color: #1c1e21;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    border: 1px solid #dddfe2;
+}
+
+.iniciar{
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 0 16px;
+    width: 360px;
+    line-height: 48px;
+    margin: 5px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.olvidar{
+    text-decoration: none;
+    color: #1877f2;
+}
+
+.cajaLink{
+    margin: 16px;
+}
+.lineaD{
+    background: #c5c5c5;
+    width: 350px;
+    height: 1px;
+    margin: 20px;
+}
+
+.Crear{
+    font-weight: bold;
+    text-align: center;
+    background-color: #42b72a;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+}
+.Crear2{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+.Celebridad{
+    font-size: 14px;
+    margin: 28px;
+    padding: 0px;
+}
+
+.Pie{
+    text-align: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 980px;
+    display: flex;
+    align-items: flex-start;
+    
+}
+
+.linea_separador{
+    width: 980px;
+    height: 1px;
+}
+
+a{
+    color: #737373;
+    text-decoration: none;
+    
+    
+}
+
+.list2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 250px;
+    justify-content: left;
+    align-items: stretch;
+
+}
+
+@media (max-width:875px) {
+    .Flexbox{flex-direction: column;}
+}
+

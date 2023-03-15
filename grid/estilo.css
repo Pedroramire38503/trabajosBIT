@@ -1,0 +1,29 @@
+.contenedor{
+    background: #2984ec;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 50px 150px 250px;
+    width: 100%;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.d1{
+    background-color: #490303;
+}
+.d2{
+    background-color: #3959;
+}
+.d3{
+    background-color: #125;
+}
+.d4{    background-color: #325;
+}
+.d5{
+    background-color: #fafa;
+}
+.d6{
+    background-color: #fafafa;
+}

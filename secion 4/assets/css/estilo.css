@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+*{
+    font-family: 'Roboto Condensed', sans-serif;;
+}
+.FondoTelefono{
+    background-image: url(../img/telefones.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#img1{
+    width: 250px;
+}
+
+#img2{
+    width: 250px;
+    
+}
+.flexbox2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logoInstagram{
+    width: 180px;
+}
+.cajausuario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.ImgTiendas{
+    height: 40px;
+}
+
+.Caja1U{
+    display: flex;
+    margin: 10px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    padding: 12px 0 9px 8px;
+    width: 260px;
+    background-color: #FAFAFA;
+    border-radius: 3px;
+    border: 1px solid #c5c5c5;
+    font-size: 12px;
+}
+
+.contenedorInputs{
+    margin: 10px 0;
+}
+
+#btnlogin{
+    width: 100%;
+    padding: 8px 0;
+    font-weight: bold;
+    background-color: #0095f6;
+    border-radius: 8px;
+    color: #fff;
+    border: 0;
+    margin: 5px
+    
+    
+}
+
+.SeparadorContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linea{
+    background-color: #c5c5c5;
+    width: 100%;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.linea1{
+    margin-right: 20%;
+}
+
+.linea2{
+    margin-left: 20%;
+}
+
+.linkusuario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    margin: 6px;
+}
+
+.LinkFb{
+    font-size: 100%;
+    color: rgb(4, 69, 112);
+    font-weight: bold
+}
+.fa-brands{
+    color: rgb(4, 69, 112);
+}
+
+.forgot{
+    color: rgb(4, 69, 112);
+}
+
+.DontHave{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    border: rgb(192, 189, 189) solid 0.2px;
+}
+
+.sing{
+    color: #0095f6;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.CajaFormulario{
+    border: rgb(192, 189, 189) solid 0.2px;
+    margin: 0 0 6px 0;
+    padding: 35px;
+}
+
+.get{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.get{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.tienditas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.google{
+    margin-right: 10px;
+}
+
+.microsoft{
+    margin-left: 10px;
+}
+
+@media (max-width: 875px) {
+    .A2{display: none;}
+    
+}
+
+@media (min-width: 875px) {
+    .A1{display: none;}
+    
+    
+}

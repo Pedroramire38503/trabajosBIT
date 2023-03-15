@@ -1,0 +1,110 @@
+.flexbox1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sizeimg {
+    height: 40px;
+}
+
+.logoInstagram{
+    background: url(../img/logoInstagram.png);
+    height: 51px;
+    width: 175px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.input{
+    width: 258px;
+    height: 36px;
+    border: 1px solid #d6d6d6;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    margin: 0 40px 6px
+}
+
+.CajaFormulario{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    
+}
+.tienditas img{ 
+    height: 50px;
+    width: 40%;
+    font-size: 100%;
+}
+
+#usuario{
+    width: 258px;
+    height: 36px;
+    border: 1px solid #d6d6d6;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    margin: 0 40px 6px
+}
+
+#contraseña{
+    width: 258px;
+    height: 36px;
+    border: 1px solid #d6d6d6;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    margin: 0 40px 6px
+}
+
+.button{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin-top: 8px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#btn{
+    background-color: #1877F2;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 14px;
+    flex-direction: column;
+    width: 258px;
+    color: #d6d6d6;
+    font-size: bold;
+    padding: 7px 16px;
+    text-align: center;
+
+}
+.Cja1{
+    border: solid 0.5px #d1caca;
+    border-radius: 2px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 10px 0 30px 0;
+    height: 402px;
+    width: 350px;
+    
+}
+
+.Cja2{
+    border: solid 0.5px #d1caca;
+    border-radius: 2px ;
+    display: flex;
+    margin: 10px 0 0;
+    width: 350px;
+    height: 63px;
+    align-items: center;
+    justify-content: center;
+    
+}
+#registrate{
+    text-decoration: none;
+}
