@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <ul id="listaProductos"></ul>
+    <script>
+        let listaDeCompras = ["papas", "Huevos", "Leche", "Queso","Nutella", "Gansito"]
+        listaDeCompras[3] = "Queso pera"
+        console.log(listaDeCompras)
+
+        listaDeCompras.push("salchichas")
+        listaDeCompras.push("pan","Mojarra")
+        console.log(listaDeCompras)
+
+        listaDeCompras.pop()
+        console.log(listaDeCompras)
+
+        listaDeCompras.unshift("cebolla")
+        listaDeCompras.unshift("suero", "cervezas", "arroz")
+        console.log(listaDeCompras)
+
+        listaDeCompras.shift()
+        console.log(listaDeCompras)
+
+        console.log(listaDeCompras.sort())
+
+        let edades = [10, 22, 30, 45, 38, 6, 7896]
+        console.log(edades.sort( (a,b) => {
+        return b - a} ))
+
+
+        
+
+        listaDeCompras.forEach( producto, indice, mismoArray) => {
+        document.querySelector("#listaProductos").innerHTML += `<li>${indice}</li>`
+        };
+
+        // for (let x = 0; x < listaDeCompras.length; x++) {
+        //     document.querySelector("#listaProductos").innerHTML += `<li>${listaDeCompras}</li> `
+            
+        // }
+    </script>
+</body>
+</html>

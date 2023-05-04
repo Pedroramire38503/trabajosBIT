@@ -1,0 +1,28 @@
+.T1{
+    background-color: #ebebeb;
+    transition: background-color .5s;
+}
+
+.T1:hover {
+    background-color: white;
+  }
+
+  .btn{
+    background-color: #000;
+    transition: background-color .5s;
+  }
+
+  .btn:hover {
+    background-color: orange;
+    color: #000;
+    border: none;
+    
+  }
+
+  /* .linea{ */
+    background: black;
+    height: 1px;
+    width: 35%;
+    border: #000;
+    margin: 30px;
+  }

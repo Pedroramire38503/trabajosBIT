@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/estilo.css">
+</head>
+<body class="bg-black">
+
+    <div class="container">
+        <h1 class="text-center py-5 fuenteMargareth text-light"> Notas rápidas</h1>
+        <div class="row">
+            <div class="col-6 offset-3">
+                <form>
+                    <input class="form-control" id="tituloNotasUsuario" type="text" placeholder="Titulo de la nota">
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="su nota va aqui" id="notaUsuario"></textarea>
+                            <label for="notaUsuario">su nota va aqui</label>
+                        </div>
+                </form>
+                <div class="d-flex justify-content-center mt-4">
+                    <button onclick="guardarNota()" class="btn btn-warning fw-bold" id="btnFormulario">Guardar nota</button>
+                </div>
+            </div>
+            <div class="col-10-mt-5">
+                <div class="row row-cols-1 row-cols-md-2 g-4" id="notasGuardadas"></div>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/node.js"></script>
+    <script src="node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+</body>
+</html>

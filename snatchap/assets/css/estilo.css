@@ -1,64 +1,77 @@
-.color1 {
-    background-color: rgb(179, 255, 0);
-    height: 100px;
+.logo1{
+    width: 100px;
+    height: 100%;
 }
 
-.color2 {
-    background-color: rgb(233, 24, 17);
-    height: 100px;
+.btn{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-top: 6px;
+    translate: 60px;
 }
 
-.color3 {
-    background-color: rgb(0, 255, 21);
-    height: 100px;
+.btn1{
+    width: 50%;
+    height: 35px;
+    background-color: #121314;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    border-radius: 100px;
+    border: 0;
+    width: fit-content;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 15px;
+    
 }
 
-.color4 {
-    background-color: rgb(255, 0, 179);
-    height: 100px;
+.btn2{
+    background-color:#121314;
+    color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    border-radius: 100px;
+    border: 0;
+    width: fit-content;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 15px;
+    height: 35px;
 }
 
-.color5 {
-    background-color: rgb(79, 167, 167);
-    height: 100px;
+.titulo{
+    font-weight: 500;
+    align-items: center;
+    display: flex;
 }
 
-.color6 {
-    background-color: rgb(70, 148, 236);
-    height: 100px;
-}
+.btn3{
+    border-radius: 100px;
+    height: 49px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    }
 
-.color7 {
-    background-color: rgb(255, 174, 0);
-    height: 100px;
-}
-
-.color8 {
-    background-color: rgb(204, 0, 255);
-    height: 100px;
-}
-
-.color9 {
-    background-color: rgb(182, 72, 132);
-    height: 100px;
-}
-
-.color10 {
-    background-color: rgb(167, 235, 128);
-    height: 100px;
-}
-
-.color11 {
-    background-color: rgb(219, 135, 86);
-    height: 100px;
-}
-
-.color12 {
-    background-color: rgb(50, 16, 247);
-    height: 100px;
-}
-
-.color13 {
-    background-color: rgb(163, 163, 163);
-    height: 100px;
+.iniciar{
+    font-size: 20px;
 }
