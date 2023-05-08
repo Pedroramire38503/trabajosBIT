@@ -1,21 +1,26 @@
-
-let bodyHtml = document.querySelector("body")
-let divcards = document.createElement("div")
-divcards.className = "row row-cols-1 row-cols-md-2 g-4"
-bodyHtml.appendChild(divcards)
-
-
-function buscarPersonaje() {
-
-    const url = "https://pokeapi.co/api/v2/pokemon/";
-    fetch(url).then(data => 
-        data.json())
-        
-
-            // imprimirPersonajes(datos)
-        })
+const obtenerPokemones = async() => {
+    try {
+        const consumoApi = await fetch('https://pokeapi.co/api/v2/pokemon?limit=20')
+        const dataJson = await consumoApi.json()
+        dataJson.results.forEach(pokemon => {
+            console.log(detallePokemon(pokemon.url))
+        });
+    } catch (error) {
+        console.log(error)
     }
-    .catch(error => console.log(error))
+}
+
+obtenerPokemones()
+const detallePokemon = async(urlPokemon) => {
+    try {const dataPokemon =await fetch(urlPokemon)
+        const dataPokeDetalle = await dataPokemon.json()
+        return dataPokeDetalle
+    } catch (error) {
+        console.log(error)
+    }
+    
+    
+}
 
 
 
@@ -34,5 +39,3 @@ function buscarPersonaje() {
 //     })
     
 // }
-
-buscarPersonaje();
